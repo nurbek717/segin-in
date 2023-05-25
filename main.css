@@ -157,12 +157,12 @@ body{
 .box form .inputBox input:focus ~ i {
     height: 44px;
 }
-.box form .link{
-    width: 300px;
+.box form .lenk{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.box form .link a {
+.box form .lenk a {
     margin: 10px 0;
     font-size: 0.75em;
     color: #8f8f8f;
@@ -170,8 +170,9 @@ body{
 }
 
 
-.box form .link a:hover,
-.box form .link a:nth-child(2){
+.box form .lenk a:hover,
+.box form .lenk a:nth-child(2)
+{
     color: #fff;
 }
 
